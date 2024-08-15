@@ -11,7 +11,7 @@ const navbar = () => {
     <div>
         <div className="navbar">
             <div className="nav-video">
-                <img src="./img/nav-bg3-gif.gif" autoPlay nocontrols muted loop className='nav-video'></img>
+                <img src="https://i.postimg.cc/MGJ8mkSJ/nav-bg3-gif.gif" autoPlay nocontrols muted loop className='nav-video'></img>
             </div>
             <div className="logo-name">
                 <div className="logo">

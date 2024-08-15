@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar{
+    width: 100vw;
+    height: 6rem;
+     background: url(./img/nav-bg.mp4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-video{
+    position: absolute;
+    object-fit: cover;
+    object-position:  center;
+    width: 100%;
+    height: 6rem;
+    z-index: -1;
+    opacity: 1;
+}
+
+.logo-name{
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+
+.logo img{
+    width: 7rem;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+.menus{
+    height: 100%;
+    margin-right: 5em;
+    display: flex;
+    align-items: center;
+}
+
+.menus ul{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+}
+.menus ul a{
+    color: rgb(255, 255, 255);
+    list-style: none;
+    font-size: 1.2rem;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.menus ul a:hover{
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+    .navbar{
+        height: 5rem;
+    }
+    .logo-name{
+        gap: 0.3rem;
+    }
+    .logo img{
+        width: 5rem;
+    }
+    .name{
+        font-size: 1.1rem;
+    }
+    .menus{
+        margin-right: 2em;
+    }
+    .menus ul a{
+        font-size: 1rem;
+    }
+    .menus ul{
+        gap: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 445px) {
+    .navbar{
+        height: 5rem;
+    }
+    .logo-name{
+        gap: 0.3rem;
+    }
+    .logo img{
+        width: 4rem;
+    }
+    .name{
+        font-size: 1rem;
+    }
+    .menus{
+        margin-right: 2em;
+    }
+    .menus ul a{
+        font-size: .7rem;
+    }
+    .menus ul{
+        gap: .2rem;
+    }
+}
+
+@media only screen and (max-width: 445px) and (min-width: 300px) {
+    .navbar{
+        height: 3rem;
+    }
+    .logo-name{
+        gap: 0rem;
+        margin-top: .7rem;
+        margin-left: 0rem;
+    }
+    .logo img{
+        width: 4rem;
+    }
+    .name{
+        font-size: 1rem;
+    }
+    .menus{
+        margin-right: .6rem;
+        margin-top: .7rem;
+    }
+    .menus ul a{
+        font-size: .9rem;
+    }
+    .menus ul{
+        gap: 10px;
+    }
+}

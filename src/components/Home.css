@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url("https://use.typekit.net/eej2lzq.css");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.heading {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+
+.heading h2 {
+    font-family: "asap-condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 5rem;
+    font-size: 5rem;
+    color: #2C2C2C;
+    line-height: 6rem;
+    letter-spacing: .1rem;
+    padding: 0 15rem;
+}
+
+.heading p {
+    padding: 1rem 19rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.features-text {
+    margin-top: 8rem;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: -4rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.functions {
+    display: flex;
+    gap: 7rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9rem;
+    margin-bottom: 4rem;
+}
+
+.chat-bot,
+.text-to-image,
+.stock-images {
+    background: linear-gradient(90deg, rgba(114, 124, 213, 0.782) 0%, rgba(38, 172, 123, 0.559) 0%, rgba(53, 100, 218, 0.519) 35%, rgba(0, 238, 255, 0.622) 100%);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 20rem;
+}
+
+.chat-bot h4,
+.text-to-image h4,
+.stock-images h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.3rem;
+    padding: 1.2rem .5rem 0;
+    font-weight: 600;
+}
+
+.chat-bot p,
+.text-to-image p,
+.stock-images p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+    padding: 0.4rem .5rem 0;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.chat-bot a,
+.text-to-image a,
+.stock-images a {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    background-color: lightblue;
+    padding: .6rem 1.4rem;
+    border-radius: 2rem;
+    margin: 0.6rem;
+    font-size: large;
+}
+
+.chat-bot img {
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+.text-to-image img {
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+.img-with-text {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.img-with-text h1 {
+    color: white;
+    font-size: 2.1rem;
+    padding: 0 0 1.1rem 0;
+}
+
+.stock-images img {
+    width: 9.2rem;
+    filter: invert(100%);
+}
+
+.creators-first .details {
+    display: flex;
+    gap: 3rem;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 5rem;
+}
+
+.creators-first .top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 10rem 6rem 10rem;
+}
+
+.creators-first .top h2 {
+    font-size: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+}
+
+.creators-first .top p {
+    font-size: 1.2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+.details .img-texts-1 {
+    width: 130rem;
+}
+
+.details .img-texts-1 img {
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+
+.details .img-texts-1 h2 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.details .img-texts-1 p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.details .img-texts-2 {
+    width: 130rem;
+}
+
+.details .img-texts-2 img {
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+
+.details .img-texts-2 h2 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.details .img-texts-2 p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.details .img-texts-3 {
+    width: 130rem;
+}
+
+.details .img-texts-3 img {
+    margin-bottom: 2rem;
+    width: 20rem;
+}
+
+.details .img-texts-3 h2 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.details .img-texts-3 p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+    .heading h2 {
+        font-size: 3rem;
+        line-height: 4.5rem;
+        padding: 0 4rem;
+    }
+
+    .heading p {
+        padding: 1rem 3rem;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .features-text {
+        margin-top: 6rem;
+        text-align: center;
+        font-family: "Josefin Sans", sans-serif;
+        margin-bottom: -4rem;
+        font-weight: 600;
+        font-size: 2.2rem;
+    }
+
+    .functions {
+        flex-direction: column;
+    }
+
+    .creators-first .top {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 5rem 6rem 5rem;
+    }
+
+    .creators-first .top h2 {
+        font-size: 1.7rem;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 600;
+    }
+
+    .creators-first .top p {
+        font-size: 1rem;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 400;
+        margin-top: 1.5rem;
+    }
+
+    .creators-first .details {
+        flex-direction: column;
+        margin-top: -2rem;
+        align-items: center;
+    }
+
+    .details .img-texts-1 {
+        width: 30rem;
+    }
+
+    .details .img-texts-2 {
+        width: 30rem;
+    }
+
+    .details .img-texts-3 {
+        width: 30rem;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 445px) {
+    .heading h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+        padding: 0 4rem;
+        font-weight: 600;
+    }
+
+    .heading p {
+        padding: 1rem 2rem;
+        font-weight: 400;
+        font-size: .8rem;
+        margin-top: -2rem;
+    }
+
+    .features-text {
+        margin-top: 4rem;
+        text-align: center;
+        margin-bottom: -6rem;
+        font-weight: 600;
+        font-size: 2.2rem;
+    }
+
+    .functions {
+        flex-direction: column;
+    }
+
+    .creators-first .top {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .creators-first .top h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .creators-first .top p {
+        font-size: .8rem;
+        font-weight: 400;
+        margin-top: 1.5rem;
+    }
+
+    .creators-first .details {
+        flex-direction: column;
+        margin-top: -2rem;
+        align-items: center;
+    }
+
+    .details .img-texts-1 {
+        width: 20rem;
+    }
+
+    .details .img-texts-1 img {
+        width: 15rem;
+    }
+
+    .details .img-texts-1 h2 {
+        font-size: 1rem;
+    }
+
+    .details .img-texts-1 p {
+        font-size: .7rem;
+    }
+
+    .details .img-texts-2 {
+        width: 20rem;
+    }
+
+    .details .img-texts-2 img {
+        width: 15rem;
+    }
+
+    .details .img-texts-2 h2 {
+        font-size: 1rem;
+    }
+
+    .details .img-texts-2 p {
+        font-size: .7rem;
+    }
+
+    .details .img-texts-3 {
+        width: 20rem;
+    }
+
+    .details .img-texts-3 img {
+        width: 15rem;
+    }
+
+    .details .img-texts-3 h2 {
+        font-size: 1rem;
+    }
+
+    .details .img-texts-3 p {
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .heading h2 {
+        font-size: 1.3rem;
+        line-height: 2rem;
+        padding: 0 4rem;
+        font-weight: 600;
+    }
+
+    .heading p {
+        padding: 1rem 0.7rem;
+        font-weight: 400;
+        font-size: .6rem;
+        margin-top: -2rem;
+    }
+
+    .features-text {
+        margin-top: 2rem;
+        text-align: center;
+        margin-bottom: -7rem;
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+
+    .functions {
+        flex-direction: column;
+    }
+
+    .chat-bot,
+    .text-to-image,
+    .stock-images {
+        width: 15rem;
+    }
+
+    .chat-bot h4,
+    .text-to-image h4,
+    .stock-images h4 {
+        font-size: 1.1rem;
+        padding: 1.2rem .5rem 0;
+        font-weight: 600;
+    }
+
+    .chat-bot p,
+    .text-to-image p,
+    .stock-images p {
+        font-size: .7rem;
+        padding: 0.4rem .5rem 0;
+        font-weight: 400;
+        margin-bottom: 1.5rem;
+    }
+
+    .chat-bot a,
+    .text-to-image a,
+    .stock-images a {
+        font-weight: 500;
+        background-color: lightblue;
+        padding: .5rem .9rem;
+        border-radius: 2rem;
+        margin: 0.6rem;
+        font-size: .8rem;
+    }
+
+
+    .creators-first .top {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .creators-first .top h2 {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .creators-first .top p {
+        font-size: .6rem;
+        font-weight: 400;
+        margin-top: 1.2rem;
+    }
+
+    .img-with-text {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+    }
+    
+    .img-with-text h1 {
+        font-size: 1.6rem;
+    }
+    .img-with-text img {
+        width: 7rem;
+    }
+
+    .creators-first .details {
+        flex-direction: column;
+        margin-top: -3rem;
+        align-items: center;
+    }
+
+    .details .img-texts-1 {
+        width: 15rem;
+    }
+
+    .details .img-texts-1 img {
+        width: 15rem;
+    }
+
+    .details .img-texts-1 h2 {
+        font-size: 1rem;
+    }
+
+    .details .img-texts-1 p {
+        font-size: .7rem;
+    }
+
+    .details .img-texts-2 {
+        width: 15rem;
+    }
+
+    .details .img-texts-2 img {
+        width: 15rem;
+    }
+
+    .details .img-texts-2 h2 {
+        font-size: 1rem;
+    }
+
+    .details .img-texts-2 p {
+        font-size: .7rem;
+    }
+
+    .details .img-texts-3 {
+        width: 15rem;
+    }
+
+    .details .img-texts-3 img {
+        width: 15rem;
+    }
+
+    .details .img-texts-3 h2 {
+        font-size: 1rem;
+    }
+
+    .details .img-texts-3 p {
+        font-size: .7rem;
+    }
+}

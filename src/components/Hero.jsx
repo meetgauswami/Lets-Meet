@@ -37,7 +37,9 @@ const Hero = ({setProgress}) => {
         });
 
         setAnswer(response['data']['candidates'][0]['content']['parts'][0]['text']);
-        console.log(response['data'])
+        // console.log(response['data'])
+
+        window.localStorage.setItem(`Chatbot - ${question}`, JSON.stringify(question));
         
 
 

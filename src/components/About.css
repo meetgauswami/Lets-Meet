@@ -7,6 +7,7 @@
     height: 100%;
     background-color: transparent;
     margin-top: 6rem;
+    overflow-x: hidden;
   }
   .about-section h1 {
     color: black;
@@ -109,6 +110,7 @@
     .about-section .all-sections .mini-section .hexagon {
       width: 50%;
     }
+  
   }
   @media (max-width: 400px) {
     .about-section .all-sections .mini-section .hexagon {
@@ -121,8 +123,8 @@
     top: 22%;
   }
   .about-section .who-am-i .image-me {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     position: relative;
     top: 0;
     left: 50%;
@@ -137,7 +139,7 @@
     margin-top: 20px;
   }
   .about-section .who-am-i .all-who .div-para {
-    width: 400px;
+    width: 300px;
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -145,6 +147,7 @@
   .about-section .who-am-i .all-who .div-para p {
     font-size: 16px;
     margin-top: -40px;
+    overflow-y : hidden;
   
     color: black;
     text-align: center;

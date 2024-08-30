@@ -63,6 +63,9 @@ const Images = ({ setProgress }) => {
     });
     scrollToBottom();
 
+    window.localStorage.setItem(`Images - ${Prompt}`, JSON.stringify(Prompt));
+
+
   }
 
 

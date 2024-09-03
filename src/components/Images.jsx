@@ -11,6 +11,9 @@ const Images = ({ setProgress }) => {
   const apikey = import.meta.env.VITE_SOME_KEY2;
 
 
+  
+
+
   useEffect(() => {
     setProgress(40);
     setTimeout(() => {
@@ -48,7 +51,7 @@ const Images = ({ setProgress }) => {
         body: JSON.stringify({ "inputs": Prompt }),
 
       },
-      console.log(Prompt)
+      
     );
 
     const result = await response.blob();
@@ -57,13 +60,15 @@ const Images = ({ setProgress }) => {
   }
 
   async function ImageClick() {
+    // preventDefault();
     generateImage().then((response) => {
       const objectURL = URL.createObjectURL(response)
       setImgUrl(objectURL);
     });
     scrollToBottom();
 
-    window.localStorage.setItem(`Images - ${Prompt}`, JSON.stringify(Prompt));
+    console.log(Prompt)
+
 
 
   }
@@ -76,7 +81,7 @@ const Images = ({ setProgress }) => {
       <div className='hero-sec'>
         <div className="back">
           <Link to={'/'}>
-            <i class="fa-solid fa-left-long"></i>
+            <i className="fa-solid fa-left-long"></i>
           </Link>
         </div>
         <div className="Heading">
@@ -88,7 +93,7 @@ const Images = ({ setProgress }) => {
         </div>
         <div className="text-div">
           <form onSubmit={ImageClick} >
-            <textarea required onChange={(e) => setPrompt(e.target.value)} name="chat-text" className="text-aria" placeholder='Enter Prompt...'></textarea>
+            <textarea required onChange={(e) => setPrompt(e.target.value)} type='name' className="text-aria" placeholder='Enter Prompt...'></textarea>
             <button className='cursor-not-allowed' onClick={ImageClick} type='button'><i className="fa-regular fa-paper-plane"></i></button>
           </form>
         </div>

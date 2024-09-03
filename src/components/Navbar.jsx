@@ -22,6 +22,7 @@ const navbar = () => {
                 <ul>
                     <Link to={"/"}>Home</Link>
                     <Link to={"/about"}>About Us</Link>
+                    {/* <Link to={"/contact"}>Contact Us</Link> */}
                 </ul>
             </div>
         </div>

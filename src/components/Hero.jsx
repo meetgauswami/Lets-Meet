@@ -27,7 +27,7 @@ const Hero = ({setProgress}) => {
     e.preventDefault();
 
         const response = await axios({
-            url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apikey}`,
+            url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDvABvd50wpZj31sAg1xdTM0Xo733Z7KOY`,
             method: "post",
             data: {
                 contents: [

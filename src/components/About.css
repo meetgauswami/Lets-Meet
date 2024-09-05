@@ -93,6 +93,13 @@
         font-size: 18px;
     }
     .contentRight .content h2{
-        font-size: 30px;
+        font-size: 25px;
     }
+    .contentRight .content p {
+        font-size: 12px;
+    }
+    .contentRight .content a{
+        padding: 10px 20px;
+    }
+    
 }

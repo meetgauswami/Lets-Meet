@@ -9,6 +9,7 @@ const Images = ({ setProgress }) => {
   const [Prompt, setPrompt] = useState("")
 
   const apikey = import.meta.env.VITE_SOME_KEY2;
+  const Authorization = import.meta.env.VITE_SOME_KEY3;
 
 
   
@@ -45,7 +46,7 @@ const Images = ({ setProgress }) => {
     const response = await fetch(
       "https://api-inference.huggingface.co/models/ZB-Tech/Text-to-Image",
       {
-        headers: { Authorization: `Bearer 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` },
+        headers: { Authorization: `Bearer ${Authorization}` },
         method: 'POST',
         auth: `Bearer ${apikey}`,
         body: JSON.stringify({ "inputs": Prompt }),

@@ -46,7 +46,7 @@ const Images = ({ setProgress }) => {
     const response = await fetch(
       "https://api-inference.huggingface.co/models/ZB-Tech/Text-to-Image",
       {
-        headers: { Authorization: `Bearer ${Authorization}` },
+        headers: { Authorization: `Bearer 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` },
         method: 'POST',
         auth: `Bearer ${apikey}`,
         body: JSON.stringify({ "inputs": Prompt }),

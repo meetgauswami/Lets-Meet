@@ -42,7 +42,7 @@ const Home = ({setProgress}) => {
                       <Link to="/images">VIsit <i class="fa-solid fa-arrow-trend-up"></i></Link>
                   </div>
                   </Link>
-                  <Link to={"https://mrclicker.vercel.app/"}>
+                  <Link to={"https://mrclicker.vercel.app/"} target='_blank'>
                   <div className="stock-images">
                     <div className="img-with-text">
                   <img src="https://i.pinimg.com/originals/40/07/3a/40073aaab270160f0a885cc2eaa9956e.png" alt="" />

@@ -41,6 +41,10 @@ const About = ({ setProgress }) => {
   </div>
 </div>
 <Contactus />
+<div className="dev-info d-flex flex-column items-center mb-2">
+  <h3 className='text-xl'>Meet Gauswami</h3>
+  <p className='text-l opacity-70'>Web Developer</p>
+</div>
     </div>
   )
 }

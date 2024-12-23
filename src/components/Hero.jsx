@@ -27,7 +27,7 @@ const Hero = ({setProgress}) => {
     e.preventDefault();
 
         const response = await axios({
-            url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDvABvd50wpZj31sAg1xdTM0Xo733Z7KOY`,
+            url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyAWbEnbGO_IqBPweMRqsQXpdeedGeqXNqw`,
             method: "post",
             data: {
                 contents: [
@@ -49,7 +49,7 @@ const Hero = ({setProgress}) => {
         <div className='hero-sec'>
               <div className="back">
           <Link to={'/'}>
-            <i class="fa-solid fa-left-long"></i>
+            <i className="fa-solid fa-left-long"></i>
           </Link>
         </div>
             <div className="Heading">

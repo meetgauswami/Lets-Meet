@@ -54,7 +54,6 @@ const Home = ({setProgress}) => {
                   </div>
                   </Link>
             </div>
-            
             <div className="creators-first">
               <div className="top">
                 <h2>Creators first</h2>

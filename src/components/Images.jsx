@@ -92,7 +92,7 @@ const Images = ({ setProgress }) => {
           <img src="https://cdn.dribbble.com/users/77598/screenshots/16399264/media/d86ceb1ad552398787fb76f343080aa6.gif" alt="" />
           <h3 className='text-2xl'>Enter Prompt For Image...</h3>
         </div>
-        <div className="text-div">
+        <div className="text-div-image">
           <form onSubmit={ImageClick} >
             <textarea required onChange={(e) => setPrompt(e.target.value)} type='name' className="text-aria" placeholder='Enter Prompt...'></textarea>
             <button className='cursor-not-allowed' onClick={ImageClick} type='button'><i className="fa-regular fa-paper-plane"></i></button>

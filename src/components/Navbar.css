@@ -3,7 +3,7 @@
 .navbar{
     width: 100vw;
     height: 6rem;
-     background: url(./img/nav-bg.mp4);
+    background: url(./img/nav-bg.mp4);
     display: flex;
     align-items: center;
     justify-content: space-between;

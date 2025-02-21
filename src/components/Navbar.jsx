@@ -10,13 +10,13 @@ const navbar = () => {
     <div>
         <div className="navbar">
             <div className="nav-video">
-                <img src="https://i.postimg.cc/MGJ8mkSJ/nav-bg3-gif.gif" autoPlay nocontrols muted loop className='nav-video'></img>
+                <video src="/Assets/nav-bg3.mp4" autoPlay nocontrols muted loop className='nav-video'></video>
             </div>
             <div className="logo-name">
                 <div className="logo">
-                    <img src="https://i.postimg.cc/Bb4JgY4V/logo-gif.gif" alt="grfgr" />
+                    <img src="/Assets/logo-gif.gif" alt="Let's Meet AI" />
                 </div>
-                <div className="name">Let's Meet</div>
+                <div className="name">Let's Meet AI</div>
             </div>
             <div className="menus">
                 <ul>

@@ -19,6 +19,7 @@
 
   </head>
   <body>
+    <div id="preloader"></div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6024669738144015"
@@ -27,5 +28,18 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+
+    <script>
+
+      var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function() {
+          loader.style.display = "none"
+        })
+
+    </script>
+
+
   </body>
 </html>
